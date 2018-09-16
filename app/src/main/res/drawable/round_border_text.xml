@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">  <!-- Hình khối là hình chữ nhật-->
+
+    <!-- Đặt màu nền-->
+    <solid
+        android:color="@color/white" >
+    </solid>
+    <!-- Đặt thuộc tính màu và độ rộng của đường viền -->
+    <stroke
+        android:color="@color/white"
+        android:width="3dp">
+    </stroke>
+    <corners
+        android:radius="5dp" >
+    </corners>
+
+</shape>
